@@ -232,6 +232,17 @@
     padding: 6px 12px;
   }
 
+  /* Project buttons */
+  .proj-links{ margin-top:20px; display:flex; flex-wrap:wrap; gap:12px; }
+  .proj-btn{
+    display:inline-block; text-decoration:none;
+    font-size:13px; font-weight:800; padding:11px 20px;
+    border:1.5px solid var(--ink); color:var(--ink);
+    transition: transform .12s ease;
+  }
+  .proj-btn:hover{ transform:translateY(-2px); }
+  .proj-btn.live{ background:var(--teal); border-color:var(--teal); color:var(--ivory); }
+
   /* Certifications */
   .cert-sec{ background: var(--ink); color: var(--ivory); }
   .cert-sec .sec-label{ color: var(--gold); }
@@ -475,6 +486,28 @@
           <li>Optimized frame processing pipeline for low-latency gesture recognition, ensuring smooth and responsive real-time gameplay control.</li>
         </ul>
         <div class="proj-tags"><span>Python</span><span>OpenCV</span><span>MediaPipe</span></div>
+        <div class="proj-links">
+          <a class="proj-btn" href="https://github.com/tanishka2105/hand-gesture-game-controller" target="_blank" rel="noopener">View on GitHub ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="proj-spread">
+      <div class="proj-bignum">03</div>
+      <div class="proj-content">
+        <h3>Ascendra — AI Career Copilot</h3>
+        <ul>
+          <li>Built and deployed a full career-prep web app that brings resume analysis, interview practice and job tracking into one place.</li>
+          <li>Developed a resume analyser that generates an ATS score, along with a resume match tool to compare a resume against a job description.</li>
+          <li>Created an interview coach, question bank, prep planner and knowledge base to support structured placement preparation.</li>
+          <li>Added a job tracker to manage applications and progress in one dashboard.</li>
+          <li>Shipped as an installable Progressive Web App (manifest + service worker), hosted on Render.</li>
+        </ul>
+        <div class="proj-tags"><span>Python</span><span>JavaScript</span><span>HTML/CSS</span><span>PWA</span><span>Render</span></div>
+        <div class="proj-links">
+          <a class="proj-btn live" href="PASTE_RENDER_LINK_HERE" target="_blank" rel="noopener">🌐 Live Demo ↗</a>
+          <a class="proj-btn" href="https://github.com/tanishka2105/Ai-Career-copilot-" target="_blank" rel="noopener">View on GitHub ↗</a>
+        </div>
       </div>
     </div>
   </div>
