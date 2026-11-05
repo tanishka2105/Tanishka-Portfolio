@@ -1,5 +1,7 @@
 # Hi, I'm Tanishka Chaudhary 👋
 
+[![Live Portfolio](https://img.shields.io/badge/🌐_Live_Portfolio-Click_Here-blueviolet?style=for-the-badge)](https://tanishka2105.github.io/Tanishka-Portfolio/)
+
 Second-year B.Tech CSE student at Lovely Professional University, Phagwara, Punjab.
 Aspiring **AI/ML engineer** focused on **Generative AI**.
 
